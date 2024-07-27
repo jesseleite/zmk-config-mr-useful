@@ -13,14 +13,14 @@
                 &kp LEFT    &kp DOWN    &kp RIGHT
             >;
         };
+    };
 
-        combos {
-            compatible = "zmk,combos";
-            combo_bootloader {
-                timeout-ms = <50>;
-                key-positions = <0 9>;
-                bindings = <&bootloader>;
-            };
+    combos {
+        compatible = "zmk,combos";
+        combo_bootloader {
+            timeout-ms = <50>;
+            key-positions = <0 9>;
+            bindings = <&bootloader>;
         };
     };
 };
