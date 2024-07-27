@@ -11,14 +11,14 @@
         label = "default_kscan";
         diode-direction = "col2row";
 
-        row-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+        row-gpios = <&waveshare_rp2040_zero 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&waveshare_rp2040_zero 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&waveshare_rp2040_zero 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&waveshare_rp2040_zero 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
-        col-gpios = <&pro_micro 11 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 12 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 13 GPIO_ACTIVE_HIGH>;
+        col-gpios = <&waveshare_rp2040_zero 11 GPIO_ACTIVE_HIGH>,
+                    <&waveshare_rp2040_zero 12 GPIO_ACTIVE_HIGH>,
+                    <&waveshare_rp2040_zero 13 GPIO_ACTIVE_HIGH>;
     };
 
     default_transform: matrix_transform {
