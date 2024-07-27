@@ -1,0 +1,6 @@
+if SHIELD_MR_USEFUL
+
+config ZMK_KEYBOARD_NAME
+    default "Mr. Useful"
+
+endif
