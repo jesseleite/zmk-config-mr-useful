@@ -1,16 +1,22 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+// Hyper + Direction Aliases
+#define H_U LG(LA(LC(UP)))
+#define H_D LG(LA(LC(DOWN)))
+#define H_L LG(LA(LC(LEFT)))
+#define H_R LG(LA(LC(RIGHT)))
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &kp F15     &kp F16     &kp F17
-                &kp F18     &kp F19     &kp F20
-                            &kp UP
-                &kp LEFT    &kp DOWN    &kp RIGHT
+                &kp F15   &kp F16    &kp F17
+                &kp F18   &kp F19    &kp F20
+                          &kp H_UP
+                &kp H_L   &kp H_DN   &kp H_R
             >;
         };
     };
