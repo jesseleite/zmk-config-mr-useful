@@ -13,10 +13,10 @@
 
         default_layer {
             bindings = <
-                &kp F15   &kp F16    &kp F17
-                &kp F18   &kp F19    &kp F20
-                          &kp H_UP
-                &kp H_L   &kp H_DN   &kp H_R
+                &kp F15   &kp F16   &kp F17
+                &kp F18   &kp F19   &kp F20
+                          &kp H_U
+                &kp H_L   &kp H_D   &kp H_R
             >;
         };
     };
